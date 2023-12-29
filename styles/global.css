@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&family=Rubik+Scribble&display=swap");
+
+:root {
+  --primary-font: "Roboto Condensed";
+  --logo-font: "Rubik Scribble";
+  --primary-color: #13005a;
+  --secondary-color: #00337c;
+  --neon-green: #03c988;
+  --light-blue: #1c82ad;
+  --cs-red: #bf3131;
+  --tb-button-padding: 0.8rem 1rem;
+}
+
+*,
+*::after,
+*::backdrop {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--primary-font);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
